@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#09090B;
+
+color:white;
+
+font-family:"Plus Jakarta Sans",sans-serif;
+
+overflow-x:hidden;
+
+}
+
+*{
+
+box-sizing:border-box;
+
+}
