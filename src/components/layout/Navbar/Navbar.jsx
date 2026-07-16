@@ -8,28 +8,22 @@ const links = [
 
 export default function Navbar() {
   return (
-    <header className="fixed top-6 left-1/2 z-50 -translate-x-1/2">
-      <nav className="flex items-center gap-8 rounded-full border border-white/10 bg-white/5 px-6 py-3 backdrop-blur-xl shadow-lg shadow-black/20">
-        
-        <h1 className="text-lg font-bold tracking-wider text-white">
-          AK
-        </h1>
+    <header className="fixed top-6 left-1/2 z-50 -translate-x-1/2 w-[92%] max-w-6xl">
+      <nav className="flex items-center justify-between rounded-full border border-white/10 bg-black/30 px-6 py-3 backdrop-blur-xl">
+        {/* Logo */}
+        <div className="flex items-center gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 to-violet-500 font-bold text-white">
+            AK
+          </div>
 
-        <div className="hidden md:flex items-center gap-6">
-          {links.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="text-sm text-zinc-300 transition hover:text-white"
-            >
-              {link.label}
-            </a>
-          ))}
+          <span className="hidden md:block font-semibold text-white">
+            Athul Krishna
+          </span>
         </div>
 
-        <Button size="sm">
-          Resume
-        </Button>
+        {/* Navigation Links */}
+
+        {/* Resume Button */}
       </nav>
     </header>
   );
