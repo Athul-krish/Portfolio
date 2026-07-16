@@ -8,7 +8,7 @@ export default function Section({
   return (
     <section
       id={id}
-      className={`py-24 md:py-32 ${className}`}
+      className={`relative overflow-hidden py-28 md:py-36 ${className}`}
     >
       <Container>
         {children}

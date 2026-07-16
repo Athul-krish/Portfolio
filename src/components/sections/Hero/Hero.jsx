@@ -7,6 +7,7 @@ import ScrollIndicator from "./ScrollIndicator";
 import { FiDownload } from "react-icons/fi";
 import { FiArrowRight } from "react-icons/fi";
 
+
 const container = {
   hidden: {},
   show: {
