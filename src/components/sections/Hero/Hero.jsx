@@ -63,8 +63,7 @@ export default function Hero() {
           variants={item}
           className="mt-8 max-w-2xl text-lg leading-8 text-zinc-400"
         >
-          MCA Student • MERN Stack Developer • Passionate about building clean,
-          responsive and interactive web experiences.
+          MERN Stack Developer crafting fast, responsive and user-focused web applications.
         </motion.p>
 
         <motion.div

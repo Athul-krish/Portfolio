@@ -2,13 +2,12 @@ import portfolioImg from "@/assets/projects/portfolio.png";
 import hackathonImg from "@/assets/projects/hackathon.png";
 import bookingImg from "@/assets/projects/booking.png";
 
-
 export const about = {
   name: "Athul Krishna",
   role: "MCA Student & MERN Stack Developer",
   location: "Kerala, India",
 
-  bio: `Building fast, responsive, and intuitive web applications with modern technologies. Always learning, always improving.`,
+  bio: `I'm an MCA student passionate about turning ideas into responsive web applications. I enjoy solving real-world problems using the MERN stack and continuously improving my skills through projects and hands-on learning.`,
 };
 
 export const stats = [
@@ -63,7 +62,6 @@ export const skills = [
   },
 ];
 
-
 //projects
 export const projects = [
   {
@@ -74,14 +72,9 @@ export const projects = [
 
     image: portfolioImg,
 
-    tech: [
-      "React",
-      "Tailwind",
-      "Framer Motion",
-    ],
+    tech: ["React", "Tailwind", "Framer Motion"],
 
-    github:
-      "https://github.com/Athul-krish/Portfolio",
+    github: "https://github.com/Athul-krish/Portfolio",
 
     demo: "#",
   },
@@ -95,15 +88,9 @@ export const projects = [
 
     image: hackathonImg,
 
-    tech: [
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-    ],
+    tech: ["React", "Node", "Express", "MongoDB"],
 
-    github:
-      "https://github.com/Athul-krish",
+    github: "https://github.com/Athul-krish",
 
     demo: "#",
   },
@@ -118,14 +105,9 @@ export const projects = [
 
     image: bookingImg,
 
-    tech: [
-      "React",
-      "Express",
-      "MongoDB",
-    ],
+    tech: ["React", "Express", "MongoDB"],
 
-    github:
-      "https://github.com/Athul-krish",
+    github: "https://github.com/Athul-krish",
 
     demo: "#",
   },
