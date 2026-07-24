@@ -1,18 +1,26 @@
+import React from "react";
+import { cn } from "@/lib/utils";
 import Container from "./Container";
 
 export default function Section({
-  id,
   children,
+  id,
   className = "",
+  containerClassName = "",
+  fullWidth = false,
+  ...props
 }) {
   return (
     <section
       id={id}
-      className={`py-24 md:py-32 ${className}`}
+      className={cn("relative py-20 md:py-28 lg:py-32 overflow-hidden", className)}
+      {...props}
     >
-      <Container>
-        {children}
-      </Container>
+      {fullWidth ? (
+        children
+      ) : (
+        <Container className={containerClassName}>{children}</Container>
+      )}
     </section>
   );
 }
