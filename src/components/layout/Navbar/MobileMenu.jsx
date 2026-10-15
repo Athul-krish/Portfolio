@@ -67,7 +67,7 @@ export default function MobileMenu({ isOpen, onClose, links, activeSection, onNa
             className="flex flex-col gap-3 pt-4 border-t border-white/10"
           >
             <a
-              href="/src/assets/resume/resume.pdf"
+              href="/resume.pdf"
               download="Athul_Krishna_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"

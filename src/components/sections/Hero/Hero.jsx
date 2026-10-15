@@ -101,7 +101,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/src/assets/resume/resume.pdf"
+            href="/resume.pdf"
             download="Athul_Krishna_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"

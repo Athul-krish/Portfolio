@@ -1,5 +1,6 @@
 {
-  "name": "aether",
+  "name": "athul-portfolio",
+  "description": "Modern personal portfolio website for Athul Krishna",
   "private": true,
   "version": "0.0.0",
   "type": "module",

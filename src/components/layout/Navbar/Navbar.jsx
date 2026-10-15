@@ -138,7 +138,7 @@ export default function Navbar() {
           {/* Resume & Mobile Trigger */}
           <div className="flex items-center gap-2">
             <a
-              href="/src/assets/resume/resume.pdf"
+              href="/resume.pdf"
               download="Athul_Krishna_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
